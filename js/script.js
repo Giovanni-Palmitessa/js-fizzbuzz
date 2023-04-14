@@ -17,8 +17,14 @@ ESEMPIO
 5) i = 4;  in console si ha 4
 6) i = 5;  in console si ha Buzz
 
+se numero % 3 = 0 
+allora stampa fizz 
 
+se numero % 5 = 0
+allora stampa buzz
 
+se nemero % 3 e numero % 5 = 0
+allora stampa FizzBuzz
 */
 
 
