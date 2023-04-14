@@ -40,10 +40,9 @@ for (let i = 1; i <= 100; i = i + 1) {
         elegrid.innerHTML = elegrid.innerHTML + `<div class="cell-fizz">${i}</div>`;
     } else if (i % 5 == 0) {
         console.log('Buzz');
+        elegrid.innerHTML = elegrid.innerHTML + `<div class="cell-buzz">${i}</div>`;
     } else {
-        console.log(i)
+        console.log(i);
+        elegrid.innerHTML = elegrid.innerHTML + `<div class="cell">${i}</div>`;
     }
-    
-
-    // elegrid.innerHTML = elegrid.innerHTML + `<div class="cell">${i}</div>`
 }
