@@ -32,8 +32,8 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 4rem;
-    height: 4rem;
+    width: 5rem;
+    height: 5rem;
     margin: 5px;
     background-color: blue;
 }
@@ -42,8 +42,8 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 4rem;
-    height: 4rem;
+    width: 5rem;
+    height: 5rem;
     margin: 5px;
     background-color: green;
 }
@@ -52,8 +52,8 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 4rem;
-    height: 4rem;
+    width: 5rem;
+    height: 5rem;
     margin: 5px;
     background-color: red;  
 }
@@ -62,8 +62,8 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 4rem;
-    height: 4rem;
+    width: 5rem;
+    height: 5rem;
     margin: 5px;
     background-color: salmon;
 }
