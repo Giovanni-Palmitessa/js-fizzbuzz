@@ -57,3 +57,13 @@ h1{
     margin: 5px;
     background-color: red;  
 }
+
+.cell-fizz-buzz{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    margin: 5px;
+    background-color: salmon;
+}
