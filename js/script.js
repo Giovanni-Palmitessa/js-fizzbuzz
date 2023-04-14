@@ -30,11 +30,16 @@ allora stampa FizzBuzz
 
 const elegrid = document.querySelector('.grid');
 
-for (let i = 0; i <= 100; i = i + 1) {
+for (let i = 1; i <= 100; i = i + 1) {
 
     if (i % 3 == 0) {
         console.log('fizz');
-    }
-    console.log(i);
-    elegrid.innerHTML = elegrid.innerHTML + `<div class="cell">${i}</div>`
+    } else if (i % 5 == 0) {
+        console.log('buzz');
+    } else {
+        console.log(i);
+    }   
+    
+
+    // elegrid.innerHTML = elegrid.innerHTML + `<div class="cell">${i}</div>`
 }
